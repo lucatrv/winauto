@@ -1,6 +1,6 @@
 [package]
 name = "winauto"
-version = "0.0.0"
+version = "0.1.0"
 authors = ["Luca Trevisani <lucatrv@hotmail.com>"]
 edition = "2024"
 rust-version = "1.85"
@@ -10,3 +10,11 @@ repository = "https://github.com/lucatrv/winauto"
 license = "MIT OR Apache-2.0"
 keywords = ["excel", "office", "windows", "automation", "com"]
 categories = ["os::windows-apis"]
+
+[dependencies.windows]
+version = "0.61"
+features = [
+    "Win32_System_Com_StructuredStorage",
+    "Win32_System_Ole",
+    "Win32_System_Variant",
+]
