@@ -1,0 +1,12 @@
+[package]
+name = "winauto"
+version = "0.0.0"
+authors = ["Luca Trevisani <lucatrv@hotmail.com>"]
+edition = "2024"
+rust-version = "1.85"
+description = "A Rust library to automate Windows applications with ease"
+readme = "README.md"
+repository = "https://github.com/lucatrv/winauto"
+license = "MIT OR Apache-2.0"
+keywords = ["excel", "office", "windows", "automation", "com"]
+categories = ["os::windows-apis"]
